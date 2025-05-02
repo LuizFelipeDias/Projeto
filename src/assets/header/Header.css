@@ -1,0 +1,16 @@
+/* BinarySearch.css */
+
+.title {
+    text-align: center;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    color: black; /* Definindo a cor das letras como preto */
+}
+
+.students-name {
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+}

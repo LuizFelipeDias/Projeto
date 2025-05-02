@@ -1,0 +1,23 @@
+.binary-navbar-container {
+    background: #1b1b1f;
+    margin-top: 1em;
+}
+
+.topics {
+    display: flex;
+    gap: 30px;
+    justify-content: center; /* Alinha os itens horizontalmente no centro */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    text-align: center; /* Alinha o texto dentro de cada item (opcional) */
+
+}
+
+.topics button {
+    border-radius: 12px; /* Adiciona bordas arredondadas aos botões */
+    padding: 10px 20px; /* Ajusta o padding para uma aparência mais equilibrada */
+    border: 1px solid #ccc; /* Define a borda do botão */
+    background-color: #f0f0f0; /* Define a cor de fundo do botão */
+    cursor: pointer; /* Mostra o cursor de pointer ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Adiciona um efeito suave na cor de fundo */
+}
+
