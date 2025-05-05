@@ -15,13 +15,13 @@ const cardData = [
   {
     id: 2,
     title: 'React',
-    description: 'Espaço pra texto',
+    description: 'Biblioteca JavaScript para criar interfaces de usuário interativas e reutilizáveis',
     icon: <FontAwesomeIcon icon={faReact} size="2x" />
   },
   {
     id: 3,
     title: 'Vite',
-    description: 'Espaço pra texto',
+    description: 'Ferramenta de build moderna e rápida para projetos web, focada em desempenho',
     icon: (
       <img
         src="https://vitejs.dev/logo-with-shadow.png"
@@ -33,7 +33,7 @@ const cardData = [
   {
     id: 4,
     title: 'Linguagem C',
-    description: 'Espaço pra texto',
+    description: 'Linguagem de programação estruturada, usada em sistemas, drivers e aplicações de baixo nível',
     icon: (
       <svg width="32px" height="32px" viewBox="0 0 24 24" fill="currentColor">
         <path d="M12 12c2.7 0 4-2 4-4s-1.3-4-4-4-4 2-4 4 1.3 4 4 4zm0 2c-3.3 0-6 1.7-6 4v2h12v-2c0-2.3-2.7-4-6-4z" />

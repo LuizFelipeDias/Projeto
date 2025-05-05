@@ -4,7 +4,323 @@
     align-items: center;
     justify-content: center;
 }
-  
+
+
+/*TAD container e elementos dentro dele*/
+
+.container-code-explanation {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em;
+  align-items: stretch;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.explanation-TAD {
+  flex: 1;
+  background-color: #0f172a;
+  padding: 1.2em;
+  border: 1px solid deepskyblue;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse */
+.explanation-TAD:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3); /* sombra azul clara (deepskyblue com transparência) */
+  z-index: 1; /* garante que fique acima de outros */
+}
+
+
+.explanation-TAD h2 {
+  color: #e879f9; /* rosa */
+}
+
+.explanation-TAD p {
+  color: #2dd4bf; /* ciano */
+}
+
+.explanation-TAD ul {
+  color: #a78bfa; /* roxo */
+}
+
+.explanation-TAD li strong {
+  color: #e879f9; /* forte como comando */
+}
+
+/*Pilha container e elementos dentro dele*/
+
+.container-pilha-explanation {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em;
+  align-items: stretch; /* garante que fiquem com a mesma altura */
+}
+
+.pilha-explanation {
+  flex: 1;
+  background-color: #0f172a;
+  padding: 1.2em;
+  border: 1px solid deepskyblue;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse */
+.pilha-explanation:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3); /* sombra azul clara (deepskyblue com transparência) */
+  z-index: 1; /* garante que fique acima de outros */
+}
+
+.pilha-explanation h2 {
+  color: #e879f9; /* rosa */
+}
+
+.pilha-explanation p {
+  color: #2dd4bf; /* ciano */
+}
+
+.pilha-explanation ul {
+  color: #a78bfa; /* roxo */
+}
+
+.pilha-explanation li strong {
+  color: #e879f9; /* forte como comando */
+}
+
+/*Fila container e elementos dentro dele*/
+
+.container-fila-explanation {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em;
+  align-items: stretch; /* garante que fiquem com a mesma altura */
+}
+
+.fila-explanation {
+  flex: 1;
+  background-color: #0f172a;
+  padding: 1.2em;
+  border: 1px solid deepskyblue;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse */
+.fila-explanation:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3); /* sombra azul clara (deepskyblue com transparência) */
+  z-index: 1; /* garante que fique acima de outros */
+}
+
+.fila-explanation h2 {
+  color: #e879f9; /* rosa */
+}
+
+.fila-explanation p {
+  color: #2dd4bf; /* ciano */
+}
+
+.fila-explanation ul {
+  color: #a78bfa; /* roxo */
+}
+
+.fila-explanation li strong {
+  color: #e879f9; /* forte como comando */
+}
+
+/*Busca Binaria container e elementos dentro dele*/
+
+.container-buscabinaria-explanation {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em;
+  align-items: stretch; /* garante que fiquem com a mesma altura */
+}
+
+.buscabinaria-explanation {
+  flex: 1;
+  background-color: #0f172a;
+  padding: 1.2em;
+  border: 1px solid deepskyblue;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse */
+.buscabinaria-explanation:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3); /* sombra azul clara (deepskyblue com transparência) */
+  z-index: 1; /* garante que fique acima de outros */
+}
+
+.buscabinaria-explanation h2 {
+  color: #e879f9; /* rosa */
+}
+
+.buscabinaria-explanation p {
+  color: #2dd4bf; /* ciano */
+}
+
+.buscabinaria-explanation ul {
+  color: #a78bfa; /* roxo */
+}
+
+.buscabinaria-explanation li strong {
+  color: #e879f9; /* forte como comando */
+}
+
+
+/*Lista encadeada container e elementos dentro dele*/
+
+.container-listaencadeada-explanation {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em;
+  align-items: stretch; /* garante que fiquem com a mesma altura */
+}
+
+.listaencadeada-explanation {
+  flex: 1;
+  background-color: #0f172a;
+  padding: 1.2em;
+  border: 1px solid deepskyblue;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse */
+.listaencadeada-explanation:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3); /* sombra azul clara (deepskyblue com transparência) */
+  z-index: 1; /* garante que fique acima de outros */
+}
+
+.listaencadeada-explanation h2 {
+  color: #e879f9; /* rosa */
+}
+
+.listaencadeada-explanation p {
+  color: #2dd4bf; /* ciano */
+}
+
+.listaencadeada-explanation ul {
+  color: #a78bfa; /* roxo */
+}
+
+.listaencadeada-explanation li strong {
+  color: #e879f9; /* forte como comando */
+}
+
+/*Arvore binaria container e elementos dentro dele*/
+
+.container-arvorebinaria-explanation {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em;
+  align-items: stretch; /* garante que fiquem com a mesma altura */
+}
+
+.arvorebinaria-explanation {
+  flex: 1;
+  background-color: #0f172a;
+  padding: 1.2em;
+  border: 1px solid deepskyblue;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse */
+.arvorebinaria-explanation:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3); /* sombra azul clara (deepskyblue com transparência) */
+  z-index: 1; /* garante que fique acima de outros */
+}
+
+.arvorebinaria-explanation h2 {
+  color: #e879f9; /* rosa */
+}
+
+.arvorebinaria-explanation p {
+  color: #2dd4bf; /* ciano */
+}
+
+.arvorebinaria-explanation ul {
+  color: #a78bfa; /* roxo */
+}
+
+.arvorebinaria-explanation li strong {
+  color: #e879f9; /* forte como comando */
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Card codigo*/
+
+.code-card {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
   .page__content p,
   .page__content li,
   .page__content dl {
@@ -47,7 +363,6 @@
   background-color: #f6f8fa;
   border: 1px solid #d0d7de;
   border-radius: 6px;
-  margin: 1.5rem 0;
   font-family: 'Courier New', Courier, monospace;
   overflow-x: auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
@@ -75,7 +390,7 @@
 
 body {
     color: var(--global-text-color);
-    background-color: var(--global-bg-color);
+    background-color: #0f172a;
     margin: 0;
     padding: 0;  /* Remover o padding superior */
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;

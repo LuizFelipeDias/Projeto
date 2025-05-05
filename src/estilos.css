@@ -1,0 +1,23 @@
+.arvorebinaria-explanation {
+  flex: 1;
+  background-color: #0f172a;
+  padding: 1.2em;
+  border: 1px solid deepskyblue;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse */
+.arvorebinaria-explanation:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3); /* sombra azul clara (deepskyblue com transparência) */
+  z-index: 1; /* garante que fique acima de outros */
+}
